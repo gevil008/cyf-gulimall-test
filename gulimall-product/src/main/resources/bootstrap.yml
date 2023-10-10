@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gulimall-product
+  cloud:
+    nacos:
+      config:
+        namespace: 22297483-6946-4036-b51a-e40d7da468bf
+        server-addr: 192.168.56.10:8848
+        file-extension: yml
+logging:
+  level:
+    root: INFO
