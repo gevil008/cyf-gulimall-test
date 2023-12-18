@@ -16,8 +16,8 @@ public class OAuth2Controller {
     public String weibo(@RequestParam("code") String code) throws Exception {
         System.out.println("微博：code"+code);
         Map<String,String> map = new HashMap<>();
-        map.put("client_id","2070478803");
-        map.put("client_secret","5c939d48b5b69f9f15dac94297ce5d76");
+        map.put("client_id","");
+        map.put("client_secret","");
         map.put("grant_type","authorization_code");
         map.put("code",code);
         map.put("redirect_uri","http://auth.gulimall.com/oauth2.0/weibo/success");
